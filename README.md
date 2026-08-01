@@ -2,7 +2,7 @@
 
 Portfolio técnico documentando un laboratorio de red simulada: firewall, routing inter-VLAN, segmentación, monitoreo y servicios en cloud, construido y documentado.
 
-**Sitio publicado:** https://juansiecola.github.io/JuanInfraestructure/
+**Sitio publicado:** https://juansiecola.github.io/JuanInfrastructure/
 
 ## Stack
 
