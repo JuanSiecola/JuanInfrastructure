@@ -1,0 +1,38 @@
+
+
+/* ── Sobre mí: card con avatar ──────────────────────────────── */
+.about-card {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  padding: 1.75rem;
+  border-radius: .4rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.about-avatar {
+  flex-shrink: 0;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  color: #fff;
+  background: linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+}
+.about-text h3 { margin-top: 0; }
+.about-text .about-role {
+  margin: -.4rem 0 1rem;
+  font-size: .8rem;
+  color: var(--md-accent-fg-color);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+@media (max-width: 30rem) {
+  .about-card { flex-direction: column; align-items: center; text-align: center; }
+}

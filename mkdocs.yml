@@ -1,0 +1,96 @@
+site_name: Juane’s Home Lab
+site_url: https://juansiecola.github.io/JuanInfrastructure/
+site_author: Juan Siécola
+theme:
+  name: material
+  language: es
+  favicon: assets/icon.png
+  icon:
+    logo: "fontawesome/solid/computer"
+  font:
+    text: Open Sans
+    code: Roboto Mono
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.instant 
+    - navigation.tabs 
+    - navigation.expand 
+    - navigation.path 
+    - navigation.top 
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition # bloques !!! note / warning / tip
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - tables
+  - footnotes
+  - pymdownx.details # admonitions colapsables (???)
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true # tabs para "pfSense / VyOS / IOS"
+
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      zoomable: true
+      draggable: false
+      shadow: true
+
+nav:
+  - Home: index.md
+  - Red: red.md
+  - Servicios:
+    - servicios/index.md
+    - Monitoreo:
+      - Grafana: servicios/monitoreo/grafana.md
+      - Uptime Kuma: servicios/monitoreo/kuma.md
+    - IPAM (NetBox): servicios/netbox.md
+    - NPM: servicios/npm.md
+  - Arquitectura: arquitectura.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/juansiecola
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/juan-siecola
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2026 Juan Siécola
