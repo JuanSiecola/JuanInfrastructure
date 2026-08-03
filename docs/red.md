@@ -78,8 +78,4 @@
 
 ![Tabla de rutas pfSense](./assets/routing/pfsense-routing.png)
 
----
-
-## Por qué así
-
-Todo el ruteo inter-VLAN vive en un solo nodo (JERO01), y los switches se mantienen 100% L2. La alternativa sería repartir SVIs de datos en JESWC01/JESWA01 y rutear ahí — la descarté porque duplica lógica de L3 en dispositivos que ya cumplen su rol siendo puro switching, y porque un único punto de ruteo es un único punto donde auditar y filtrar tráfico este-oeste. pfSense nunca ve tráfico entre VLANs internas — su rol es estrictamente norte-sur.
+Todo el ruteo entre VLANs se realiza en JERO01 (VyOS), que actúa como router centralizado, aplicando router on a stick sobre subinterfaces 802.1Q.
