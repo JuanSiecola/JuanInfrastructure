@@ -73,15 +73,18 @@ plugins:
 
 nav:
   - Home: index.md
-  - Red: red.md
-  - Servicios:
-    - servicios/index.md
-    - Monitoreo:
-      - Grafana: servicios/monitoreo/grafana.md
-      - Uptime Kuma: servicios/monitoreo/kuma.md
-    - IPAM (NetBox): servicios/netbox.md
-    - NPM: servicios/npm.md
-  - Arquitectura: arquitectura.md
+  - Infraestructura:
+    - infraestructura/index.md
+    - Red: red.md
+    - Servicios:
+      - servicios/index.md
+      - Monitoreo:
+        - Grafana: servicios/monitoreo/grafana.md
+        - Uptime Kuma: servicios/monitoreo/kuma.md
+      - IPAM (NetBox): servicios/netbox.md
+      - NPM: servicios/npm.md
+    - Arquitectura: arquitectura.md
+  - Sistemas de Control (ISC): isc/index.md
 
 extra:
   social:
