@@ -1,4 +1,4 @@
-site_name: Juane’s Home Lab
+site_name: Juan Siecola Portfolio
 site_url: https://juansiecola.github.io/JuanInfrastructure/
 site_author: Juan Siécola
 theme:
@@ -45,9 +45,14 @@ theme:
     - content.code.annotate
 
 markdown_extensions:
+  - toc:
+      permalink: true # ícono ¶ al lado de cada título
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - admonition # bloques !!! note / warning / tip
   - attr_list
   - md_in_html
