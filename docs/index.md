@@ -4,12 +4,12 @@ title: Inicio
 
 <div class="intro" markdown>
 
-# ¡Hola! Soy Juane
+# ¡Hola! Soy Juan Siécola
 
 <p class="intro-role">Tecnólogo en Informática · UTEC</p>
 
 Soy estudiante del último año del Tecnólogo en Informática en UTEC, con experiencia práctica en laboratorios de
-redes e infraestructura y en desarrollo de software (aplicaciones web, móviles y análisis de datos con Python).
+redes e infraestructura y en desarrollo de software web.
 En mis proyectos, académicos y personales, siempre busqué experimentar, construir cosas nuevas y aprender de cada
 desafío. Valoro el trabajo en equipo, la constancia y el aprendizaje continuo. Acá dejo documentado lo que fui
 armando en el transcurso de los proyectos.
@@ -22,7 +22,7 @@ armando en el transcurso de los proyectos.
 
 <div class="project-card" markdown>
 
-### [Infraestructura · Home Lab](infraestructura/index.md){ .card-link }
+### [Administración de Infraestructura II · Home Lab](infraestructura/index.md){ .card-link }
 
 <p class="project-sub">Red híbrida: firewall, routing multi-VLAN y monitoreo</p>
 <p class="project-meta">Proyecto académico · Homelab · Equipo</p>
@@ -50,10 +50,10 @@ armando en el transcurso de los proyectos.
 
 <div class="project-card" markdown>
 
-### [Dashboard SCADA](isc/index.md){ .card-link }
+### [Introducción a los Sistemas de Control](isc/index.md){ .card-link }
 
 <p class="project-sub">Monitoreo en tiempo real sobre SimulIDE</p>
-<p class="project-meta">Introducción a los Sistemas de Control · UTEC · Equipo</p>
+<p class="project-meta">Proyecto académico · UTEC · Equipo</p>
 <p class="project-desc">Proyecto académico para la asignatura Introducción a los Sistemas de Control que contiene un circuito con Arduino, motores paso a paso y sensores simulado en SimulIDE, monitoreado desde un dashboard web. Dos backends desacoplados por MQTT, WebSockets y autenticación con Keycloak.</p>
 
 <div class="tags" markdown>
@@ -107,7 +107,7 @@ armando en el transcurso de los proyectos.
 <div class="job" markdown>
 <div class="job-head" markdown>
 
-### STEM Community Uruguay
+### Sprouting a STEM Community Uruguay
 
 </div>
 
