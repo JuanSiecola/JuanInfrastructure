@@ -9,7 +9,7 @@ title: Inicio
 <p class="intro-role">Tecnólogo en Informática · UTEC</p>
 
 Soy estudiante del último año del Tecnólogo en Informática en UTEC, con experiencia práctica en laboratorios de
-redes e infraestructura y en desarrollo de software web.
+redes e infraestructura y en desarrollo de software backend.
 En mis proyectos, académicos y personales, siempre busqué experimentar, construir cosas nuevas y aprender de cada
 desafío. Valoro el trabajo en equipo, la constancia y el aprendizaje continuo. Acá dejo documentado lo que fui
 armando en el transcurso de los proyectos.
