@@ -1,0 +1,132 @@
+
+
+/* ═════════ Landing: hero, cards de proyectos y experiencia ═════════ */
+
+/* Presentación (texto plano, sin card) */
+.intro { margin: 1rem 0 2.5rem; max-width: 38rem; }
+.intro h1 { margin: 0 0 .3rem; font-size: 2.4rem; font-weight: 700; letter-spacing: -.01em; }
+.intro-kicker {
+  margin: 0 0 .5rem;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--md-default-fg-color--light);
+}
+.intro-role {
+  margin: 0 0 1.25rem;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
+.intro > p:not([class]) { font-size: .85rem; line-height: 1.75; margin: 0 0 1rem; }
+
+/* Cards de proyectos: 2 columnas iguales, misma altura */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* una card por fila: más anchas y menos altas */
+  gap: 1.25rem;
+  margin: 1rem 0 2.5rem;
+  align-items: stretch;
+}
+@media (max-width: 45rem) { .project-grid { grid-template-columns: 1fr; } }
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.4rem 1.5rem;
+  border-radius: .6rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-code-bg-color);
+  transition: transform .15s, border-color .15s, box-shadow .15s;
+}
+.project-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 6px 18px rgba(0,0,0,.18);
+}
+.project-card h3 { margin: 0 0 .2rem; font-weight: 700; }
+.project-card h3 a { color: var(--md-default-fg-color); }
+.project-card h3 .headerlink { display: none; } /* el ¶ hacía saltar de línea y dejaba un hueco */
+/* el link del título cubre toda la card */
+.project-card .card-link::after { content: ""; position: absolute; inset: 0; }
+.project-sub {
+  margin: 0 0 .35rem;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
+.project-meta {
+  margin: 0 0 .75rem;
+  font-family: var(--md-code-font-family);
+  font-size: .62rem;
+  color: var(--md-default-fg-color--light);
+}
+.project-desc { margin: 0 0 1rem; font-size: .75rem; line-height: 1.55; flex-grow: 1; }
+
+/* Tags / pills con ícono */
+.tags { display: flex; flex-wrap: wrap; gap: .4rem; }
+.tags > p { display: contents; }
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .15rem .65rem;
+  font-size: .65rem;
+  border-radius: 999px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  white-space: nowrap;
+}
+.tag .twemoji { height: .85rem; width: .85rem; }
+.tag .twemoji svg { height: .85rem; width: .85rem; fill: var(--tag-color, var(--md-accent-fg-color)); }
+[data-md-color-scheme="slate"] .tag .twemoji svg { fill: var(--tag-color-dark, var(--tag-color, var(--md-accent-fg-color))); }
+
+/* Experiencia laboral */
+.timeline { margin: 1rem 0 2rem; border-left: 2px solid var(--md-default-fg-color--lightest); padding-left: 1.5rem; }
+.job { position: relative; margin-bottom: 1.75rem; }
+.job::before {
+  content: "";
+  position: absolute;
+  left: -1.95rem;
+  top: .45rem;
+  width: .7rem;
+  height: .7rem;
+  border-radius: 50%;
+  background: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 4px var(--md-default-bg-color);
+}
+.job h3 { margin: 0 0 .2rem; }
+.job-org, .job-date { margin: 0; font-size: .8rem; }
+.job-org { font-weight: 600; }
+.job-date { color: var(--md-default-fg-color--light); }
+.job-sub { margin: .15rem 0 0; font-size: .78rem; font-style: italic; color: var(--md-accent-fg-color); }
+.job ul { margin-top: .6rem; }
+
+
+/* Contacto (al final, sobre el footer) */
+.contact { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1rem 0 2rem; }
+.contact p { display: contents; }
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+  font-weight: 600;
+  border-radius: .4rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  transition: border-color .15s, color .15s;
+}
+.contact-link:hover { border-color: var(--md-accent-fg-color); color: var(--md-accent-fg-color); }
+.contact-link .twemoji { height: 1.1rem; width: 1.1rem; }
+.contact-link .twemoji svg { height: 1.1rem; width: 1.1rem; fill: currentColor; }
+
+.job-tags { margin: .75rem 0 .25rem; }
+
+/* Entradas dentro de una organización (ej. varios talleres de STEM Community) */
+.sub-job { margin: 1.5rem 0 0; }
+.sub-job h4 { margin: 0 0 .2rem; }
+
+/* Tags dentro de tablas (Stack Utilizado) */
+td .tag { margin: .15rem .3rem .15rem 0; }
