@@ -4,7 +4,7 @@
 
 ## 1. Propósito
 
-Un solo reverse proxy centraliza certificados y reglas de exposición en un lugar, en vez de que cada servicio maneje su propio TLS. La consola de administración (puerto 81) queda Tailscale-only a propósito, es el panel que decide qué sale a internet, exponerlo sería peligroso.
+Un solo reverse proxy centraliza certificados y reglas de exposición en un lugar, en vez de que cada servicio maneje su propio TLS. La consola de administración (puerto 81) queda solo para Tailscale a propósito, es el panel que decide qué sale a internet, exponerlo sería peligroso.
 
 ### 1.1 DuckDNS
 
@@ -14,7 +14,7 @@ central no se usa. Se eligió por dos motivos concretos:
 - **Dominio gratuito**: evita pagar por uno propio solo para exponer servicios en cloud.
 - **Wildcard DNS**: con `*.js-lab-uy.duckdns.org` activado, cualquier subdominio (`grafana.js-lab-uy.duckdns.org`, `kuma.js-lab-uy.duckdns.org`, etc.) resuelve a la misma IP sin tener que registrar cada uno por separado.
 
-NPM usa esos subdominios para el reverse proxy: según el Host header de la request, 
+NPM usa esos subdominios para el reverse prox según el Host header de la request, 
 decide a qué servicio interno redirigir el tráfico.
 
 ---

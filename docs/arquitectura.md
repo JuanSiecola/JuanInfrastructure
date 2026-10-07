@@ -16,7 +16,7 @@ El laboratorio corre en GNS3 sobre Proxmox. Emular red es intensivo en CPU y man
 
 ## Servicios en Oracle Cloud
 
-Lo que sí necesita estar disponible en cualquier momento corre en Oracle Cloud, en dos instancias ARM64 always-on. `js-oraclevm-01` aloja el stack de monitoreo (Prometheus, Grafana, snmp_exporter, Uptime Kuma) y NetBox como IPAM; `js-oraclevm-02` aloja NPM, el reverse proxy que decide qué se publica hacia internet. Cada servicio vive en su propio Docker Compose, sin nada instalado de forma nativa salvo Tailscale.
+Lo que sí necesita estar disponible en cualquier momento corre en Oracle Cloud, en dos instancias ARM64 always-on. `js-oraclevm-01` aloja el stack de monitoreo (Prometheus, Grafana, snmp_exporter, Uptime Kuma) y NetBox como IPAM `js-oraclevm-02` aloja NPM, el reverse proxy que decide qué se publica hacia internet. Cada servicio vive en su propio Docker Compose, sin nada instalado de forma nativa salvo Tailscale.
 
 ## Tailscale como unión entre ambos entornos
 

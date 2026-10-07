@@ -6,7 +6,7 @@ NetBox es una herramienta de código abierto para la gestión de infraestructura
 
 ## 1. Propósito
 
-Netbox es la fuente de verdad (source of truth) de la red, donde se documenta todo: dispositivos, interfaces, VLANs, direcciones IP, cables, etc. Corre en `js-oraclevm-01` y es publicado a internet vía NPM + DuckDNS.
+Netbox es la fuente de verdad (source of truth) de la red, donde se documenta todo dispositivos, interfaces, VLANs, direcciones IP, cables, etc. Corre en `js-oraclevm-01` y es publicado a internet vía NPM + DuckDNS.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ![Diagrama GNS3](./assets/topologia/TopologiaGNS3.png)
 
-- Routing inter-VLAN centralizado en un único punto: JERO01 (VyOS), router-on-a-stick sobre subinterfaces 802.1Q.
+- Routing inter-VLAN centralizado en un único punto, JERO01 (VyOS), router-on-a-stick sobre subinterfaces 802.1Q.
 - Switching puramente L2 en JESWC01 (core) y JESWA01 (access).
 - 3 VLANs: Sysadmin (5), Logs (10), Management de switches (99).
 - Una subred por VLAN, más una subred de management fuera de VLANs y un enlace P2P entre JEFW01 (pfSense) y JERO01 (VyOS).

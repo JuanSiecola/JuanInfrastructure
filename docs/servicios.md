@@ -5,7 +5,7 @@
 - Todo servicio always-on corre en Oracle Cloud (ARM64, Free Tier) — el lab nunca aloja servicios permanentes.
 - Repartidos en dos instancias: `js-oraclevm-01` (métricas + NetBox) y `js-oraclevm-02` (publicación y DNS).
 - Un Docker Compose por servicio, nada nativo salvo Tailscale.
-- Publicación selectiva vía NPM + DuckDNS: solo lo que se decide exponer sale a internet, el resto queda Tailscale-only.
+- Publicación selectiva vía NPM y DuckDNS solo lo que se decide exponer sale a internet, el resto queda Tailscale-only.
 
 ## Detalle técnico
 

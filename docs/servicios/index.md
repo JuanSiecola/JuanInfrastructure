@@ -20,4 +20,4 @@
 
 ### Detalle de despliegue
 
-Docker Compose separado por servicio para que cada uno tenga ciclo de vida independiente: reiniciar uno no debería afectar a los demás. Nada nativo salvo Tailscale porque es la única pieza que necesita estar siempre arriba incluso si Docker se reinicia, todo lo demás al vivir en contenedores, es descartable y reproducible desde el compose file.
+Docker Compose separado por servicio para que cada uno tenga ciclo de vida independiente, reiniciar uno no debería afectar a los demás. Nada nativo salvo Tailscale porque es la única pieza que necesita estar siempre arriba incluso si Docker se reinicia, todo lo demás al vivir en contenedores, es descartable y reproducible desde el compose file.

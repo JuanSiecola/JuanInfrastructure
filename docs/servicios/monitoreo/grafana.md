@@ -6,7 +6,7 @@ Grafana es la herramienta de visualización que convierte las métricas que junt
 
 ## 1. Propósito
 
-Prometheus junta los números, pero nadie va a leer una API de series temporales a mano. Grafana traduce esas métricas en paneles: uso de interfaces, estado SNMP por dispositivo, tendencias en el tiempo. Es también el único componente del stack de métricas que se expone a internet, porque tiene su propia capa de autenticación.
+Prometheus junta los números, pero nadie va a leer una API de series temporales a mano. Grafana traduce esas métricas en paneles, uso de interfaces, estado SNMP por dispositivo, tendencias en el tiempo. Es también el único componente del stack de métricas que se expone a internet, porque tiene su propia capa de autenticación.
 
 ---
 

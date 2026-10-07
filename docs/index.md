@@ -22,10 +22,10 @@ armando en el transcurso de los proyectos.
 
 <div class="project-card" markdown>
 
-### [Administración de Infraestructura II · Home Lab](infraestructura/index.md){ .card-link }
+### [Administración de Infraestructura II - Home Lab](infraestructura/index.md){ .card-link }
 
 <p class="project-sub">Red híbrida: firewall, routing multi-VLAN y monitoreo</p>
-<p class="project-meta">Proyecto académico · Homelab · Equipo</p>
+<p class="project-meta">Proyecto académico - Homelab - Equipo</p>
 <p class="project-desc">Laboratorio en GNS3 sobre Proxmox más servicios always-on en Oracle Cloud desplegados con Docker. pfSense, VyOS y switching L2, unidos por Tailscale, con monitoreo SNMP y documentación en NetBox.</p>
 
 <div class="tags" markdown>
@@ -53,7 +53,7 @@ armando en el transcurso de los proyectos.
 ### [Introducción a los Sistemas de Control](isc/index.md){ .card-link }
 
 <p class="project-sub">Monitoreo en tiempo real sobre SimulIDE</p>
-<p class="project-meta">Proyecto académico · UTEC · Equipo</p>
+<p class="project-meta">Proyecto académico - UTEC - Equipo</p>
 <p class="project-desc">Proyecto académico para la asignatura Introducción a los Sistemas de Control que contiene un circuito con Arduino, motores paso a paso y sensores simulado en SimulIDE, monitoreado desde un dashboard web. Dos backends desacoplados por MQTT, WebSockets y autenticación con Keycloak.</p>
 
 <div class="tags" markdown>

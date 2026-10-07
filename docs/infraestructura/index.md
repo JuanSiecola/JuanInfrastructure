@@ -1,7 +1,7 @@
 # Laboratorio de Infraestructura 
 
-Documentación técnica de una red híbrida que combina dos entornos con propósitos distintos: un **laboratorio de red**
-en GNS3 sobre Proxmox, donde practico firewalling con pfSense, routing multi-VLAN con VyOS y switching L2 con Cisco IOS,
+Documentación técnica de una red híbrida que combina dos entornos con propósitos distintos. Un **laboratorio de red**
+en GNS3 sobre Proxmox, donde practico firewall con pfSense, routing multi-VLAN con VyOS y switching L2 con Cisco IOS,
 y una capa de **servicios siempre disponibles** en Oracle Cloud, con monitoreo (Prometheus, Grafana, Uptime Kuma)
 desplegado en Docker. Tailscale une ambos entornos.
 
