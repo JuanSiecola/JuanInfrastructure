@@ -24,27 +24,27 @@ NetBox proporciona una vista detallada y relacional de todos los componentes de 
 
 ### 3.1 Dispositivos
 
-![NetBox — inventario de dispositivos](../assets/services/netbox-01.png)
+![NetBox — inventario de dispositivos](../../assets/services/netbox-01.png)
 
 /// caption
 Inventario de dispositivos en NetBox, con detalles de cada uno y su relación con otros componentes de la red (interfaces, VLANs, direcciones IP, etc.).
 ///
 
 ### 3.2 Vlans
-![netboxVlans](../assets/services/netbox-vlan.png)
+![netboxVlans](../../assets/services/netbox-vlan.png)
 
 /// caption
 Listado de VLANs en NetBox, con sus respectivos IDs, nombres, prefijos y descripciones.
 ///
 
 ### 3.3 Prefijos
-![netboxPrefijos](../assets/services/netbox-prefijos.png)
+![netboxPrefijos](../../assets/services/netbox-prefijos.png)
 /// caption
 Listado de prefijos en NetBox, con sus respectivos IDs, direcciones y descripciones.
 ///
 
 ### 3.4 Cableado
-![netboxCableado](../assets/services/netbox-cableado.png)
+![netboxCableado](../../assets/services/netbox-cableado.png)
 /// caption
 Vista del cableado en NetBox, mostrando las conexiones entre dispositivos y sus interfaces.
 ///

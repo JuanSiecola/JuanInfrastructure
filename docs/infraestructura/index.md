@@ -36,19 +36,19 @@ desplegado en Docker. Tailscale une ambos entornos.
 
 <div class="grid cards" markdown>
 
-- :material-lan:{ .lg .middle } **[Red](../red.md)**
+- :material-lan:{ .lg .middle } **[Red](red.md)**
 
     ---
 
     Topología, direccionamiento, VLANs y routing del laboratorio.
 
-- :material-bridge:{ .lg .middle } **[Arquitectura](../arquitectura.md)**
+- :material-bridge:{ .lg .middle } **[Arquitectura](arquitectura.md)**
 
     ---
 
     Cómo se conectan el laboratorio y la nube, y por qué se diseñó así.
 
-- :material-server:{ .lg .middle } **[Servicios](../servicios/index.md)**
+- :material-server:{ .lg .middle } **[Servicios](servicios/index.md)**
 
     ---
 

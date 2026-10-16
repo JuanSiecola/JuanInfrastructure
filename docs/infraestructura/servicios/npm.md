@@ -29,7 +29,7 @@ decide a qué servicio interno redirigir el tráfico.
 
 ## 3. Web UI
 
-![NPM — proxy hosts](../assets/services/npm-01.png)
+![NPM — proxy hosts](../../assets/services/npm-01.png)
 
 /// caption
 Nginx Proxy Manager: listado de proxy hosts con los servicios publicados.

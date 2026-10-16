@@ -20,13 +20,13 @@ Prometheus junta los números, pero nadie va a leer una API de series temporales
 
 ## 3. Dashboards
 
-![Grafana — vista general](../../assets/services/monitoreo-grafana-01.png)
+![Grafana — vista general](../../../assets/services/monitoreo-grafana-01.png)
 
 /// caption
 Dashboard principal con métricas SNMP del switch de acceso JESWA01, mostrando throughput de interfaces, CPU, sysName, Uptime y memoria.
 ///
 
-![Grafana — detalle de panel](../../assets/services/monitoreo-grafana-02.png)
+![Grafana — detalle de panel](../../../assets/services/monitoreo-grafana-02.png)
 
 /// caption
 Panel individual de throughput de interfaces del switch de acceso JESWA01, con tráfico entrante y saliente en bits por segundo.

@@ -1,5 +1,5 @@
 site_name: Juan Siecola Portfolio
-site_url: https://juansiecola.github.io/JuanInfrastructure/
+site_url: https://docs.juansiecola.com
 site_author: Juan Siécola
 theme:
   name: material
@@ -80,15 +80,15 @@ nav:
   - Home: index.md
   - Infraestructura:
     - infraestructura/index.md
-    - Red: red.md
+    - Red: infraestructura/red.md
     - Servicios:
-      - servicios/index.md
+      - infraestructura/servicios/index.md
       - Monitoreo:
-        - Grafana: servicios/monitoreo/grafana.md
-        - Uptime Kuma: servicios/monitoreo/kuma.md
-      - IPAM (NetBox): servicios/netbox.md
-      - NPM: servicios/npm.md
-    - Arquitectura: arquitectura.md
+        - Grafana: infraestructura/servicios/monitoreo/grafana.md
+        - Uptime Kuma: infraestructura/servicios/monitoreo/kuma.md
+      - IPAM (NetBox): infraestructura/servicios/netbox.md
+      - NPM: infraestructura/servicios/npm.md
+    - Arquitectura: infraestructura/arquitectura.md
   - Sistemas de Control (ISC): isc/index.md
 
 extra:

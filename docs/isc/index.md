@@ -21,7 +21,7 @@ Proyecto de equipo en el que armamos un sistema de monitoreo y control en tiempo
 
 ## Diagrama
 
-![Diagrama Scada Simulide](../assets/circuito-topologia/diagrama-scada-simulide.svg)
+![Diagrama Scada Simulide](../assets/isc/diagrama-scada-simulide.svg)
 
 - **Backend Serial↔MQTT**: lee eventos del circuito por el puerto serie virtual y los publica al broker, también puede escribir comandos de vuelta al circuito.
 - **Backend MQTT↔WebSocket**: se suscribe al broker y los reenvía al frontend por WebSocket, también recibe acciones del usuario desde el frontend y las publica al broker.

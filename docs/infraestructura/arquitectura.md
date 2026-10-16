@@ -2,7 +2,7 @@
 
 Este diagrama muestra de forma más detallada la arquitectura general del proyecto, que combina un laboratorio de red local en GNS3, con servicios siempre disponibles en la nube de Oracle que corren en contenedores Docker.
 
-![Topología integral](./assets/topologia/topologia-general.svg)
+![Topología integral](../assets/topologia/topologia-general.svg)
 
 /// caption
 Vista completa: laboratorio local (GNS3 sobre Proxmox) y servicios always-on (Oracle Cloud), unidos por Tailscale.

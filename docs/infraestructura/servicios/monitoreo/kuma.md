@@ -23,13 +23,13 @@ Nos alerta visualmente (y podría enviar notificaciones) si un servicio o dispos
 
 El dashboard principal centraliza el estado de todos los monitores configurados, mostrando un "UP" (verde) o "DOWN" (rojo) para cada servicio.
 
-![Kuma Dashboard](../../assets/services/monitoreo-kuma-01.png)
+![Kuma Dashboard](../../../assets/services/monitoreo-kuma-01.png)
 
 /// caption
 Vista general del dashboard de Uptime Kuma, mostrando el estado de todos los servicios monitoreados
 ///
 
-![Kuma Check Detail](../../assets/services/monitoreo-kuma-02.png)
+![Kuma Check Detail](../../../assets/services/monitoreo-kuma-02.png)
 
 /// caption
 Detalle de un check en Uptime Kuma, mostrando información específica del estado del servicio monitoreado.
@@ -49,12 +49,12 @@ Kuma está configurado para vigilar todos los componentes de la topología usand
 * **Monitores Ping (ICMP):**
     * `Loopback pfSense (10.255.255.1)`: El monitor más crítico. Si este se cae, la red está rota.
     * `Loopback JERO01 (10.255.255.2)`: Verifica que el router de las VLANs esté en línea.
-    * `Servidor Bastion (172.16.5.100)`: Asegura que el punto de acceso SSH esté vivo.
+    * `Servidor Bastion (172.16.50.100)`: Asegura que el punto de acceso SSH esté vivo.
 
 * **Monitores de Certificados SSL/TLS:**
     * `https://netbox.js-lab-uy.duckdns.org/`: Kuma también se encarga de monitorear la fecha de vencimiento de los certificados SSL/TLS, avisando 30 días antes de que expiren.
 
-![KumaSSL](../../assets/services/kumaCert.png)
+![KumaSSL](../../../assets/services/kumaCert.png)
 
 /// caption
 Ejemplo de monitor de certificado SSL/TLS en Uptime Kuma, mostrando la fecha de expiración y el estado del certificado.
